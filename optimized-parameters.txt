@@ -1,0 +1,23 @@
+Best set of parameters found after optimizing deepmatcher RNN on computers xlarge:
+
+epochs=15 (was fixed, not optimized)
+pos_neg_ratio = 1
+batch_size = 8
+lr = 0.001
+lr_decay = 0.9
+embedding = 'fasttext.en.bin'
+nn_type = 'rnn'
+comp_type = 'abs-diff'
+features = ['title', 'description', 'brand']
+
+Best set of parameters found after optimizing deepmatcher RNN (end-to-end) on computers xlarge:
+
+epochs=15 (was fixed, not optimized)
+pos_neg_ratio = 1
+batch_size = 8
+lr = 0.0005
+lr_decay = 0.9
+embedding = 'fasttext.en.bin'
+nn_type = 'rnn'
+comp_type = 'abs-diff'
+features = ['title', 'description', 'brand']
