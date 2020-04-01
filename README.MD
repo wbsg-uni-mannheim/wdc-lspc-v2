@@ -25,6 +25,7 @@ in models/core.py to `True` in the deepmatcher package
 
 ## Code for building of small, medium, large and xlarge training sets
 Additional requirement: `textdistance`
+
 The notebook *sample-training-sets* contains the code used for building the 4 training sets for each product category
 
 ## Acknowledgements
