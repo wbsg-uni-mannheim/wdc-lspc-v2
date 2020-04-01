@@ -9,11 +9,11 @@ Code and information to replicate experiments on http://webdatacommons.org/large
 
 ## Data Preparation
 Please download and unzip the WDC LSPC v2 normalized data files into the corresponding folder under data/raw/wdc-lspc/
-1. Run noise-training-sets notebook
-2. Run process_to_magellan and process_to_wordcooc notebooks
+1. Run *noise-training-sets* notebook
+2. Run *process-to-magellan* and *process-to-wordcooc* notebooks
 
 ## Model Learning
-Run run_wordcooc, run_magellan or run_deepmatcher notebooks to replicate learning curve and label-noise experiments
+Run *run-wordcooc*, *run-magellan* or *run-deepmatcher* notebooks to replicate learning curve and label-noise experiments
 
 ## Best found parameters for deepmatcher optimization on computers xlarge
 Find the best parameter combinations in the file optimized-parameters.txt
@@ -22,6 +22,10 @@ Find the best parameter combinations in the file optimized-parameters.txt
 To allow for gradient updates of the embedding layer, simply change the line
 `embed.weight.requires_grad = False`
 in models/core.py to `True` in the deepmatcher package
+
+## Code for building of small, medium, large and xlarge training sets
+Additional requirement: `textdistance`
+The notebook *sample-training-sets* contains the code used for building the 4 training sets for each product category
 
 ## Acknowledgements
 Project structure based on Cookiecutter Data Science: https://drivendata.github.io/cookiecutter-data-science/
