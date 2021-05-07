@@ -1,3 +1,5 @@
+This repository contains code and data download scripts for the paper [Using schema. org annotations for training and maintaining product matchers](http://data.dws.informatik.uni-mannheim.de/largescaleproductcorpus/data/v2/papers/DI2KG2020_Peeters.pdf) by Ralph Peeters, Anna Primpeli, Benedikt Wichtlhuber and Christian Bizer
+
 Code and information to replicate experiments on http://webdatacommons.org/largescaleproductcorpus/v2/index.html
 
 ## Prerequisites
