@@ -1,4 +1,4 @@
-name: deepmatcher-230620
+name: wdc-lspc-v2
 channels:
   - pytorch
   - conda-forge
